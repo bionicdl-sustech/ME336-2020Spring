@@ -1,6 +1,6 @@
 # ME336 Collaborative Robot Learning, Spring 2020 <!-- omit in toc -->
 
-This repository is intended for the lab session of [ME336](https://ancorasir.com/?page_id=2320), created by [the Bionic Design and Learning Lab](https://ancorasir.com/) at [Southern University of Science and Technology](https://www.sustech.edu.cn/). Due to the COVID-19 situation, many of the content were modified so that the student can study remotely on their own laptop with a final session working with actual hardware. [This course was first offered during the Spring of 2019](https://ancorasir.com/?page_id=1310), and the majority of the lab session is carried out with various robotic hardware and a series of guest lecture series in robotics and AI. 
+This repository is intended for the lab session of [ME336](https://ancorasir.com/?page_id=2320) by [the Bionic Design and Learning Lab](https://ancorasir.com/) at [Southern University of Science and Technology](https://www.sustech.edu.cn/). Due to the COVID-19 situation, much of the content was modified so that the student can study remotely on their own laptop with a final session working with actual hardware. [This course was first offered during the Spring of 2019](https://ancorasir.com/?page_id=1310), and the majority of the lab session was carried out with various robotic hardware with a series of guest lecture series in robotics and AI. 
 - Course Instructor
   - Prof. Song Chaoyang
   - Dr. Wan Fang
