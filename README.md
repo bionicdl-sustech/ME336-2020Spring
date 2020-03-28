@@ -10,9 +10,9 @@ This repository is intended for the lab session of [ME336](https://ancorasir.com
 
 In the current version, the lab session feature four main components. 
 - **Week 01~07**: The Missing Semester by MIT and Introduction to Python/TensorFlow/Ubuntu
-- **Week 06~08**: Simulated Robot Player with PyRep
-- **Week 09~11**: Arcade Claw Player with DeepClaw
-- **Week 09~15**: Robot Learning Design Challenge on Autonomous Waste Sorting
+- **Week 08~10**: Simulated Robot Player with PyRep
+- **Week 11~13**: Arcade Claw Player with DeepClaw
+- **Week 11~15**: Robot Learning Design Challenge on Autonomous Waste Sorting
 
 ## File Structure <!-- omit in toc -->
 - **DeepClaw** (to be updated, a model zoo to streamline your program of robot learning developed by BionicDL@SUSTech)
