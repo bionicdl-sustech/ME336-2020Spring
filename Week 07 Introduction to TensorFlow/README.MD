@@ -1,5 +1,6 @@
 # Week 07 Introduction to TensorFlow
 [Deep Learning Frameworks](https://developer.nvidia.com/deep-learning-frameworks)
+
 In today's lab session, we will learn some tensorflow basic operations and run some examples.
 
 - [TensorFlow Basics](https://www.guru99.com/tensor-tensorflow.html): Tensor, Shape, Type, Graph, Sessions & Operators
