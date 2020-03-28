@@ -1,5 +1,7 @@
 # ME336 Collaborative Robot Learning, Spring 2020 <!-- omit in toc -->
 
+This repository is intended for the lab session of [ME336](https://ancorasir.com/?page_id=2320) at [Southern University of Science and Technology](https://www.sustech.edu.cn/) by [Prof. Song Chaoyang](http://ancorasir.com/).
+
 ## File Structure <!-- omit in toc -->
 - **DeepClaw** (to be updated, a model zoo to streamline your program of robot learning developed by BionicDL@SUSTech)
 - **Simulation** (to be updated, a simulation environment to help you guys getting started with robot learning)
