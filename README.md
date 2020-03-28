@@ -1,6 +1,18 @@
 # ME336 Collaborative Robot Learning, Spring 2020 <!-- omit in toc -->
 
-This repository is intended for the lab session of [ME336](https://ancorasir.com/?page_id=2320) at [Southern University of Science and Technology](https://www.sustech.edu.cn/) by [Prof. Song Chaoyang](http://ancorasir.com/).
+This repository is intended for the lab session of [ME336](https://ancorasir.com/?page_id=2320), created by [the Bionic Design and Learning Lab](https://ancorasir.com/) at [Southern University of Science and Technology](https://www.sustech.edu.cn/). Due to the COVID-19 situation, many of the content were modified so that the student can work on remotely on their own laptop with a final session working with actual hardware. [This course was first offered during the Spring of 2019](https://ancorasir.com/?page_id=1310), and the majority of the lab session is carried out with various robotic hardware and a series of guest lecture series in robotics and AI. 
+- Course Instructor
+  - Prof. Song Chaoyang
+  - Dr. Wan Fang
+- Teaching Assistant
+  - Mr. Liu Xiaobo
+  - Mr. Ge Sheng
+
+In the current version, the lab session feature four main components. 
+- **Week 01~07**: The Missing Semester by MIT and Introduction to Python/TensorFlow/Ubuntu
+- **Week 06~08**: Simulated Robot Player with PyRep
+- **Week 09~11**: Arcade Claw Player with DeepClaw
+- **Week 09~15**: Robot Learning Design Challenge on Autonomous Waste Sorting
 
 ## File Structure <!-- omit in toc -->
 - **DeepClaw** (to be updated, a model zoo to streamline your program of robot learning developed by BionicDL@SUSTech)
