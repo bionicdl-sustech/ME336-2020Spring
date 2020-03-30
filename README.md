@@ -19,6 +19,16 @@ In the current version, the lab session feature four main components.
 - **Simulation** (to be updated, a simulation environment to help you guys getting started with robot learning)
 - **Weekly Lab Folder** (detailed instructions for each week's lab content)
 
+## Assignment Report <!-- omit in toc -->
+- **Project 1 (Week 08)**: Vision-guided Picking in PyRep
+- **Project 2 (Week 10)**: Simulated Robot Player
+- **Project 3 (Week 11)**: Arcade Robot Player
+- **Project 4 (Week 13)**: Training a Waste Detector
+- **Project 5 (Week 15)**: Autonomous Waste Sorting Robot
+- Submission Requirement
+  - **Projects 1~4**: PowerPoint, Video Presentation, Code
+  - **Project 5**: 6-page report in IEEE Conference Paper Style with full-code and video presentation
+
 ## Lab Arrangement <!-- omit in toc -->
 
 - [Week 01~05 The Missing Semester by MIT](#week-0105-the-missing-semester-by-mit)
