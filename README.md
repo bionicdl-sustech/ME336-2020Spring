@@ -20,7 +20,7 @@ In the current version, the lab session feature four main components.
 - **Weekly Lab Folder** (detailed instructions for each week's lab content)
 
 ## Assignment Report <!-- omit in toc -->
-- **Project 1 (Week 08)**: Vision-guided Picking in PyRep
+- **Project 1 (Week 08)**: Kinematic Picking in PyRep
 - **Project 2 (Week 10)**: Simulated Robot Player
 - **Project 3 (Week 11)**: Arcade Robot Player
 - **Project 4 (Week 13)**: Training a Waste Detector
