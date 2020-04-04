@@ -57,7 +57,7 @@ TensorFlow is one of the most popular Deep learning frameworks, which offer buil
 
 # [Week 08 Introduction to PyRep](Week%2008%20Introduction%20to%20PyRep/README.MD)
 
-PyRep is a version of V-rep with added support for reinforcement learning. V-rep recently changed its name to CoppeliaSim, which is a popular robot simulator used widely in academics and applications. Robot learning task relies heavily on simulation due to the fact that robots are relatively expensive to buy and time-consuming to setup. In this lecture, you will learn the basic usage of PyRep, and learn how to set it up for robot learning on basic vision-based picking tasks.
+PyRep is a version of V-rep with added support for reinforcement learning. V-rep recently changed its name to CoppeliaSim, which is a popular robot simulator used widely in academics and applications. Robot learning task relies heavily on simulation due to the fact that robots are relatively expensive to buy and time-consuming to setup. In this lecture, you will learn the basic usage of PyRep, and learn how to set it up for robot learning on basic kinematic picking tasks.
 
 # [Week 09 MDP with Tic-Tac-Toe](Week%2009%20MDP%20with%20Tic-Tac-Toe/README.MD)
 
