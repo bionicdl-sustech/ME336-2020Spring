@@ -74,14 +74,18 @@ franka.home(env)
 ```
 ### TODO: your assignment
 
-After complete the Kinematic Picking example, you are required to generate a path of waypoints for the robot so that the robot should draw the letters in "COVID-19" on the table. Each student pick one letter in "COVID-19". You should write your code in the TODO part in COVID-19.py. In the franka.move() function, the code will plot the path. So when the robot moves to all the waypoints, you should see the letter in the simulation window.
+After complete the Kinematic Picking example, you are required to generate a path of waypoints for the robot so that the robot should draw the letters in "KINEMATIC" on the table. Each student pick one letter in "KINEMATIC". You should write your code in the TODO part in draw_KINEMATICS.py. In the franka.move() function, the code will plot the path. So when the robot moves to all the waypoints, you should see the letter in the simulation window.
 
-For example, the letter "C" can be seen as part of an ellipse curve. After specify the center, major axis and minor axis, you can obtain the path from the ellipse curve equation.
+Please follow the font below to generate the waypoints.
+![img](font.png)
+
+An example of letter "I" has been implemented in draw_KINEMATICS.py and the result looks like this
+![img](tasks/Kinematic_picking/letter_I.png)
 
 Please submit the following materials in one week:
   - A power point describing your project, 
   - A video of the simulation,
-  - The COVID-19.py file.
+  - The python code.
 
 ## Project 2: Simulated Robot Player
 
