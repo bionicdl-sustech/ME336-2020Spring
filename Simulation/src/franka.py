@@ -32,9 +32,8 @@ class Franka(Panda):
         '''
         while not self.gripper.actuate(0.0,0.1):
             env.step()
-        if obj is not None:
-            self.grasped_obj = obj
-            self.gripper.grasp(obj)
+        self.grasped_obj = obj
+        self.gripper.grasp(obj)
 
     def release(self,env):
         '''
