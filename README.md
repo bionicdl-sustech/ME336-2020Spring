@@ -11,7 +11,7 @@ This repository is intended for the lab session of [ME336](https://ancorasir.com
 In the current version, the lab session feature four main components. 
 - **Week 01~07**: The Missing Semester by MIT and Introduction to Python/TensorFlow/Ubuntu
 - **Week 08~10**: Simulated Robot Player with PyRep
-- **Week 11~13**: Arcade Claw Player with DeepClaw
+- **Week 11**: Arcade Claw Player with DeepClaw
 - **Week 11~15**: Robot Learning Design Challenge on Autonomous Waste Sorting
 
 ## File Structure <!-- omit in toc -->
@@ -35,11 +35,9 @@ In the current version, the lab session feature four main components.
 - [Week 06 Introduction to Python](#week-06-introduction-to-python)
 - [Week 07 Introduction to TensorFlow](#week-07-introduction-to-tensorflow)
 - [Week 08 Introduction to PyRep](#week-08-introduction-to-pyrep)
-- [Week 09 MDP with Tic-Tac-Toe](#week-09-mdp-with-tic-tac-toe)
-- [Week 10 Simulated Robot Player](#week-10-simulated-robot-player)
-- [Week 11 Introduction to DeepClaw](#week-11-introduction-to-deepclaw)
-- [Week 12 Arcade Claw Player](#week-12-arcade-claw-player)
-- [Week 13 Waste Sorting Optimization](#week-13-waste-sorting-optimization)
+- [Week 09~10 Simulated Robot Player](#week-09~10-simulated-robot-player)
+- [Week 11 DeepClaw and Claw Machine](#week-11-DeepClaw-and-Claw-Machine)
+- [Week 12~13 Waste Sorting Optimization](#week-12~13-waste-sorting-optimization)
 - [Week 14 Interactive DesignAIR](#week-14-interactive-designair)
 - [Week 15 Final Presentation](#week-15-final-presentation)
 
@@ -59,23 +57,18 @@ TensorFlow is one of the most popular Deep learning frameworks, which offer buil
 
 PyRep is a version of V-rep with added support for reinforcement learning. V-rep recently changed its name to CoppeliaSim, which is a popular robot simulator used widely in academics and applications. Robot learning task relies heavily on simulation due to the fact that robots are relatively expensive to buy and time-consuming to setup. In this lecture, you will learn the basic usage of PyRep, and learn how to set it up for robot learning on basic kinematic picking tasks.
 
-# [Week 09 MDP with Tic-Tac-Toe](Week%2009%20MDP%20with%20Tic-Tac-Toe/README.MD)
-
+# [Week 09~10 Simulated Robot Player](Week%2010%20Simulated%20Robot%20Player/README.MD)
 Tic-Tac-Toe is such a classic that you just can't miss when learning about games. You probably learned in the past on how to program Tic-Tac-Toe with MINIMAX or other methods. In this class, we will set it up as a Markove Decision Process (MDP) and see how we can "hack" a virtual player that "almost" always wins using reinforcement learning
-
-# [Week 10 Simulated Robot Player](Week%2010%20Simulated%20Robot%20Player/README.MD)
 
 Playing on the screen within the terminal is just ... boring. How about implementing Tic-Tac-Toe with a simulated robot player that plays against you on a game board? (We originally intended to have you guys practise this part with physical robots like the students did in the last semeters. Due to the the COVID-19 situation, we are left with very limited time to prepare this part for you. But I hope the simulated robot player will still give you the excitement to carry on with the learning.) You will also learn some of the challenges with robot learning when dealing with a "real" robot hardware, and take a look at gap between simulation and reality.
 
-# [Week 11 Introduction to DeepClaw](Week%2011%20Introduction%20to%20DeepClaw/README.MD)
+# [Week 11 DeepClaw and Claw Machine](Week%2011%20Introduction%20to%20DeepClaw/README.MD)
 
 In this lecture, let's practice robot learning for real with [DeepClaw](https://github.com/bionicdl-sustech/DeepClawBenchmark). DeepClaw is a streamlined model zoo for robot learning that is developed at the Bionic Design and Learning Lab. Through this lecture, we will teach you a pipeline of implementing robot learning with examples from DeepClaw. Later, you will use DeepClaw to build a waste sorting robot with deep learning.
 
-# [Week 12 Arcade Claw Player](Week%2012%20Arcade%20Claw%20Player/README.MD)
-
 Practice, practice, and practice. Let's just try working through a simple example on building an arcade claw robot from scratch to get familiar with the hardware and software details (so that you don't break the robot, and more importantly, injure yourself). You will use a neural network trained with a robot picking stuffed toys can get a feeling about how you can build a waste sorting robot on your own. Also, you should really get started with training your own waste sorting neural network for your final project. 
 
-# [Week 13 Waste Sorting Optimization](Week%2013%20Waste%20Sorting%20Optimization/README.MD)
+# [Week 12~13 Waste Sorting Optimization](Week%2013%20Waste%20Sorting%20Optimization/README.MD)
 
 This week's focus is on optimizing your trained neural network for autonomous waste sorting. We are still working on this part and will update with more details later.
 
