@@ -38,7 +38,7 @@ import numpy as np
 import PIL.Image
 
 from pycocotools import mask
-import dataset_util
+from object_detection.utils import dataset_util
 import tensorflow.compat.v1 as tf
 
 flags.DEFINE_boolean(

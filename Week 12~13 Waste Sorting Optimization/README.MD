@@ -13,17 +13,14 @@ Since some of the models in this API are not updated with the tensorflow 2.0 rel
 ``` bash
 # Create a conda environment with tensorflow 1.15, skip this step if you have created before
 conda create --name tf1.15 python=3.7
+conda activate tf1.15
 # Use tensorflow==1.15.0 if you don't have GPU on your computer
 pip install tensorflow-gpu==1.15.0
 ```
 
 ``` bash
 # Install dependency
-pip install Cython
-pip install contextlib2
-pip install pillow
-pip install lxml
-pip install matplotlib pycocotools
+pip install Cython numpy contextlib2 pillow lxml matplotlib pycocotools
 ```
 
 When running locally, the ME336/Week13 Waste Sorting Optimization/ and ME336/Week13 Waste Sorting Optimization/slim directories should be appended to PYTHONPATH. This can be done by adding the following line to ~/.bashrc
