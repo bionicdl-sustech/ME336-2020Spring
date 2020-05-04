@@ -1,5 +1,5 @@
 # PyRep Simulation
-We will do our project 1 Kinematic Picking in PyRep and project 2 Simulated Robot Player in simulation. The Simulation folder contains all the code and instructions to complete the two projects.
+We will do our project 1 Kinematic Picking, project 2 Simulated Robot Player and project 3 Claw Machine in simulation using PyRep. The Simulation folder contains all the code and instructions to complete the projects.
 
 - [PyRep Simulation](#pyrep-simulation)
   - [File Structure](#file-structure)
@@ -8,6 +8,8 @@ We will do our project 1 Kinematic Picking in PyRep and project 2 Simulated Robo
     - [Explanation of the main code](#explanation-of-the-main-code)
     - [TODO: your assignment](#todo-your-assignment)
   - [Project 2: Simulated Robot Player](#project-2-simulated-robot-player)
+  - [Project 3: Claw Machine](#Project-3-Claw-Machine)
+
 
 ## File Structure
 
@@ -176,6 +178,50 @@ def cv_get_position(img,depth_image):
 ```
 
 Please submit the following materials in two weeks:
+  - A power point describing your project, 
+  - A video of the simulation,
+  - The python code.
+
+## Project 3: Claw Machine
+
+### Getting Started
+You have to program your franka robot to claw the toys in front of the robot and put toy to a box next to robot. Please use graspNet model in DeepClaw, which is an end2end model that take an image as input and output the best position and pose to pick. Please read [our paper](https://arxiv.org/abs/2003.01582) for a detailed explanation of the grasping neural network.
+
+Make sure you have followed the instructions below to install dependency. Download the pretrained weight from [here](https://pan.baidu.com/s/1V0Uh_vronJONBEfFB26Dsw) with extract code t1tn. Extract and put the weight under ME336/Simulation/tasks/Claw_machine/checkpoint/Network9*
+
+```bash
+conda activate pyrep
+# install the cpu version if you don't have GPU
+pip install tensorflow-gpu==1.15
+cd Simulation/tasks/Claw_machine
+python toy.py
+```
+
+'.ttt' Scene file was provide [here](./scene/Claw_machine.ttt)
+
+
+### pipeline of main loop
+
+```python
+while True:
+    # capture image and depth-image
+    # extract the ros(Region of interest in img)
+    # resize the ros to 1280*720
+    # call Deeplearning algorithm here, get best position,pose and possibility
+
+    # if best possibility < 80%
+        #break
+    
+    # compute from u,v and depth-image to real world position 
+    # robot move pipeline
+```
+**Note**: if you move the franka tip to the surface of toy, franka will always can't get the path, so you can elevate your gripper a little, don't worry the gripper can not grasp the object.
+
+### TODO: your assignment
+
+You are required to use a pretrained neural network to find the optimal grasping pose and execute the grasp in the simulation. Detailed instrctions are included in the python script Simulation/tasks/Claw_machine/toy.py. You should write your code in the TODO part in the script.
+
+Please submit the following materials in one week:
   - A power point describing your project, 
   - A video of the simulation,
   - The python code.
