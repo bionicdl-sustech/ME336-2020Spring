@@ -221,7 +221,7 @@ while True:
 
 You are required to use a pretrained neural network to find the optimal grasping pose and execute the grasp in the simulation. Detailed instrctions are included in the python script Simulation/tasks/Claw_machine/toy.py. You should write your code in the TODO part in the script.
 
-Please submit the following materials in one week:
+Please submit the following materials in two weeks:
   - A power point describing your project, 
   - A video of the simulation,
   - The python code.
