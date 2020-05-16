@@ -1,5 +1,5 @@
 # Week 15 Final Presentation
-The submitted materials are code, video, and essay. 
+The submitted materials are code, video, and essay.
 
 ## RLBench (Robot Learning Benchmark)
 offical website: https://sites.google.com/view/rlbench   
@@ -30,4 +30,26 @@ python test_opendoor.py
 ```
 
 ## Choose your task
-The RLBench provides about 100 tasks, and the tasks are listed in folder RLBench/tasks. Choose a task, describe it, explain the reason, complete the code, and finish the paper.
+The RLBench provides about 100 tasks, and the tasks are listed in folder RLBench/rlbench/tasks. Choose a task, describe it, explain the reason, complete the code, and finish the paper. There are some tasks suggested:
+- push button   
+![push button](PushButton-wrist_rgb.gif)
+- press switch   
+![press switch](PressSwitch-wrist_rgb.gif)
+- slide block to target   
+![slide block to target](SlideBlockToTarget-wrist_rgb.gif)
+- stack blocks   
+![stack blocks ](StackBlocks-wrist_rgb.gif)
+- block pyramid   
+![block pyramid](BlockPyramid-wrist_rgb.gif)
+- close door   
+![close door](CloseDoor-wrist_rgb.gif)
+- pick and lift   
+![pick and lift](PickAndLift-wrist_rgb.gif)
+- pick up cup   
+![pick up cup](PickUpCup-wrist_rgb.gif)
+- open drawer   
+![open drawer](./OpenDrawer-wrist_rgb.gif)
+- set up checkers   
+![set up checkers](./SetupCheckers-wrist_rgb.gif)
+
+More tasks demos can be found in https://drive.google.com/drive/folders/1TqbulbbCEqVBd6SBHatphFlUK2JQLkYu
