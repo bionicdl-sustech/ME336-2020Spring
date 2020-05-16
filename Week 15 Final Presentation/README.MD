@@ -5,3 +5,5 @@ It seems the COVID-19 has caused far more troubles than we expected. It forces u
 Further details on preparing this assignment can be found [here](overleafCode/A_Template_for_ME336_Final_Paper.pdf). A zip file of the source code can be downloaded [here](overleafCode.zip).
 
 Good Luck!
+
+The RLBench example is [here](./RLBench).
